@@ -1,0 +1,73 @@
+/*! ======== Fonts ======== */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/open-sans-v29-latin_cyrillic-regular.woff2') format('woff2'), url('./fonts/open-sans-v29-latin_cyrillic-regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/open-sans-v29-latin_cyrillic-700.woff2') format('woff2'), url('./fonts/open-sans-v29-latin_cyrillic-700.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+/* ======== Fonts ======== */
+
+/*! ======== Default Settings ======== */
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1fffc;
+  height: 100vh;
+}
+/* 
+.women {
+  background-color: #fff1f8;
+}
+
+.men {
+  background-color: #eff9fe;
+} */
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+p {
+  margin: 0;
+}
+
+/* ======== Default Settings ======== */
