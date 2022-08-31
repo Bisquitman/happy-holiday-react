@@ -1,12 +1,13 @@
 import style from './Card.module.css';
-import Image from './Image/Image';
-import Text from './Text/Text';
+import ImageCard from './ImageCard/ImageCard';
+import Felicitation from './Felicitation/Felicitation';
+import CardBG from '../../img/card-bg.jpg';
 
 const Card = () => (
   <div className={style.card}>
     <div className={style.wrapper}>
-      <Image />
-      <Text />
+      <ImageCard img={CardBG} />
+      <Felicitation />
     </div>
   </div>
 );

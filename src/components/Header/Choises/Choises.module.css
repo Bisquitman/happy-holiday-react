@@ -14,6 +14,37 @@
   opacity: 0.6;
 }
 
+.wrapper {
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  width: 300px;
+  padding: 20px 52px;
+  font-size: 18px;
+  background-color: #00c78b;
+  color: #fff;
+  border-radius: 30px;
+  top: 68px;
+  left: 0;
+}
+
+.item {
+  cursor: pointer;
+  line-height: 36px;
+  margin-bottom: 10px;
+  transition: color 0.2s linear;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.item:hover {
+  color: #006647;
+}
+
 @media (max-width: 1024px) {
   .button {
     width: 220px;
