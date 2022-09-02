@@ -34,6 +34,14 @@
   opacity: 0.6;
 }
 
+.button:disabled {
+  background-color: #afbeba;
+}
+
+.button:disabled:hover {
+  opacity: 1;
+}
+
 @media (max-width: 1024px) {
   .wrapper {
     flex-direction: column;
