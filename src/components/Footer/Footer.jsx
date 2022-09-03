@@ -12,13 +12,21 @@ const Footer = () => (
         <div className={style.contacts}>
           <p>
             Design:{' '}
-            <a className={style.copyright__link} href='https://t.me/Mrshmallowww' target='_blank' rel='noreferrer'>
+            <a
+              className={style.copyright__link}
+              href='https://t.me/Mrshmallowww'
+              target='_blank'
+              rel='noreferrer'>
               Anastasia Ilina
             </a>
           </p>
           <p>
             Coder:{' '}
-            <a className={style.copyright__link} href='https://github.com/Bisquitman/happy-birthday' target='_blank' rel='noreferrer'>
+            <a
+              className={style.copyright__link}
+              href='https://github.com/Bisquitman/happy-holiday-react'
+              target='_blank'
+              rel='noreferrer'>
               Bisquitman
             </a>
           </p>

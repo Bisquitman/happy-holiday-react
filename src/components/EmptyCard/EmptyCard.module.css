@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  margin: auto;
+}
